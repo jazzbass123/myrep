@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local HTTPS Server</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+      main {
+        max-width: 36rem;
+        padding: 2rem;
+        border: 1px solid #334155;
+        border-radius: 1rem;
+        background: #111827;
+      }
+      code {
+        background: #1e293b;
+        padding: 0.15rem 0.35rem;
+        border-radius: 0.35rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Local HTTPS Server</h1>
+      <p>Node.js 내장 <code>https</code> 모듈로 동작하는 로컬 개발 서버입니다.</p>
+      <p>인증서는 로컬에서 자동 생성되며 저장소에는 포함되지 않습니다.</p>
+      <p>상태 확인: <code>/health</code></p>
+    </main>
+  </body>
+</html>

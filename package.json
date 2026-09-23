@@ -1,0 +1,12 @@
+{
+  "name": "myrep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local HTTPS server starter for development",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "generate-cert": "node scripts/generate-cert.js"
+  }
+}
